@@ -94,7 +94,7 @@ input {
   flex-wrap: wrap;
 }
 
-.homePage {
+.islands-container {
   display: flex;
   justify-content: space-between;
 }
