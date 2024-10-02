@@ -32,7 +32,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'news.kuwaittimes.net',
+        hostname: 'dynamic-media-cdn.tripadvisor.com',
       },
     ],
   },
