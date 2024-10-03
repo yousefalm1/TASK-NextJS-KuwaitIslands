@@ -13,11 +13,13 @@ function IslandForm({ island }) {
         height="300"
       />
       <h3>Book a trip to {island.name} island</h3>
-      <input placeholder="Type Full Name" />
-      <input placeholder="Type Phone Number" />
-      <button className="book" onClick={() => { }}>
-        Book for today!
-      </button>
+      <form onSubmit={() => { }}>
+        <input placeholder="Type Full Name" />
+        <input placeholder="Type Phone Number" />
+        <button type="submit" className="book">
+          Book for today!
+        </button>
+      </form>
     </div>
   );
 }
